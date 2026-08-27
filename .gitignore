@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.log
+.env*
+*.pem
+*.sql
+*.tar.gz
+*.tgz
+*.zip
+wp-config.php
+wp-config-*.php
+node_modules/
