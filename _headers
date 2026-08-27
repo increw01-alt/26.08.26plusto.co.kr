@@ -3,8 +3,11 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-/assets/*
+/wp-content/*
   Cache-Control: public, max-age=31536000, immutable
 
-/fonts/*
+/wp-includes/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/external-images/*
   Cache-Control: public, max-age=31536000, immutable
